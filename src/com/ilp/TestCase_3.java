@@ -5,9 +5,11 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
 
 public class TestCase_3 extends MainTest {
 	
+	@Test
 	public void inCrease() throws Exception {
 		
 		Thread.sleep(500);
@@ -84,13 +86,13 @@ public class TestCase_3 extends MainTest {
 		Driver.findElement(By.id("saveOrderId")).click();
 	}
 	
-	 @BeforeTest
-	  public void beforeTest() {
-		  
-	  }
+	@BeforeTest
+	public void beforeTest() {
 
-	  @AfterTest
-	  public void afterTest() {
-		
-	  }
+	}
+
+	@AfterTest
+	public void afterTest() {
+
+	}
 }

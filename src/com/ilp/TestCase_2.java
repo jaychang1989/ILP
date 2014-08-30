@@ -1,16 +1,16 @@
 package com.ilp;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
 
 
 public class TestCase_2 extends MainTest {
-	
+
+  @Test
   public void SelectProject() {
 	
 		// ÏÔÊ½µÈ´ý
