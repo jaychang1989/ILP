@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="Suite" parallel="false">
-  <test name="Test">
+  <test name="Test" preserve-order="true">
     <classes>
-      <class name="com.ilp.MainTest"/>
       <class name="com.ilp.TestCase_1"/>
       <class name="com.ilp.TestCase_2"/>
       <class name="com.ilp.TestCase_3"/>

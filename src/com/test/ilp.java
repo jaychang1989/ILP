@@ -5,7 +5,7 @@
  * @author Administrator
  *
  */
-package com.ilp;
+package com.test;
 
 
 import org.openqa.selenium.ie.*;
